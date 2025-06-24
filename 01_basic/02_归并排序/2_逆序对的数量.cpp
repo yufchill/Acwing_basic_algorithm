@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-long long  ans = 0;
+long long ans = 0;
 void merge_sort(vector<int> &nums, int left, int right) {
   if (left >= right) return;
   int mid = (right - left) / 2 + left;
